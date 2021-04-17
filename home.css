@@ -1,0 +1,79 @@
+
+body{
+    background: rgb(34,193,195);
+background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(165,253,45,0.36785136417848385) 100%);
+}
+
+header{
+    background-image: url(images/header/accueilS.png);
+    background-repeat: no-repeat;
+    color: snow;
+    background-size: cover;
+    padding: 30%;
+}
+
+#title{
+    font-family: cursive;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#container{
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    font-family: cursive;
+    font-size: 1em;
+
+}
+
+div#Tete{
+    padding-top: 4.8%;
+}
+
+header h2{
+    display: none;
+}
+
+img{
+    border-radius: 100%;
+}
+
+.one{
+    grid-row: 1;
+    grid-column: 1;
+    padding: auto;
+}
+
+.two{
+    grid-row: 1;
+    grid-column: 2;
+}
+
+.three{
+    grid-row: 1;
+    grid-column: 3;
+}
+
+.four{
+    grid-row: 2;
+    grid-column: 1;
+}
+
+.five{
+    grid-row: 2;
+    grid-column: 2;
+}
+
+.six{
+    grid-row: 2;
+    grid-column: 3;
+}
+
+main a:link,main :visited,main :focus,main :hover,main :active{
+    text-decoration: none;
+    outline: none;
+    color: black;
+}
