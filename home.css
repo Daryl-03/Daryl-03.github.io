@@ -9,7 +9,8 @@ header{
     background-repeat: no-repeat;
     color: snow;
     background-size: cover;
-    padding: 30%;
+    width: 100%;
+    height: 600px;
 }
 
 #title{
@@ -31,10 +32,6 @@ header{
 
 div#Tete{
     padding-top: 4.8%;
-}
-
-header h2{
-    display: none;
 }
 
 img{
